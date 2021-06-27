@@ -41,7 +41,7 @@ body {
 	letter-spacing: 0.03em;
 }
 .container {
-	width: 1170px;
+	width: 1200px;
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -78,7 +78,6 @@ ul {
 	font-weight: 500;
 	font-size: inherit;
 	line-height: 1.14;
-	padding: 32px 0;
 }
 .list-header {
 	display: flex;
@@ -87,8 +86,11 @@ ul {
 
 .list-nav {
 	color: var(--primary-text-color);
-	font-weight: 500;
+	/* font-weight: 500;
+	font-size: inherit;
+	line-height: 1.14; */
 	text-decoration: none;
+	padding: 32px 0;
 }
 .list-nav-item:not(:last-child) {
 	margin-right: 50px;
@@ -125,7 +127,7 @@ ul {
 	color: var(--accent-color);
 }
 .list-footer {
-	font-weight: 500;
+	font-weight: inherit;
 	font-size: inherit;
 	line-height: 1.46;
 }
@@ -134,8 +136,6 @@ ul {
 }
 .adress-footer {
 	color: var(--primary-white-color);
-	font-weight: inherit;
-	line-height: 1.71;
 	letter-spacing: 0.03em;
 	font-style: normal;
 	text-decoration: none;
@@ -157,7 +157,6 @@ ul {
 	display: block;
 }
 .footer-contact {
-	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
 	text-decoration: none;
@@ -180,7 +179,6 @@ ul {
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
-	padding: 15px 0;
 	margin-bottom: 30px;
 }
 .main-button {
