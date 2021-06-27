@@ -235,11 +235,14 @@ ul {
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
+.main-features {
+	padding-top: 87px;
+}
 .features {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 87px;
+	/* padding-top: 87px; */
 	/* padding-bottom: 94px; */
 }
 .list-features-item:not(:last-child) {
